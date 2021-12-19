@@ -4,7 +4,7 @@ const Education = () => {
       <div className="flex flex-col ml-10 justify-center">
         <div className="border-l-4 border-darkBlue p-1 font-bold text-xl uppercase">
           Education
-        </div>
+        </div> 
         <div className="grid grid-cols-2 gap-x-24 gap-y-10 py-6">
           <div className="grid grid-cols-2 gap-1 p-5 border border-grey-100 rounded-lg drop-shadow-md">
             <div className="font-bold text-darkBlue">
