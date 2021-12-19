@@ -1,0 +1,24 @@
+.cursor {
+  animation: blink 1s infinite;
+}
+.cursor.typing {
+  animation: none;
+}
+
+@keyframes blink {
+  0% {
+    background-color: #00adb5;
+  }
+  49% {
+    background-color: #00adb5;
+  }
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #00adb5;
+  }
+}
