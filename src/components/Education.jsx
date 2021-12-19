@@ -12,7 +12,7 @@ const Education = () => {
             </div>
             <div>BSc CSIT</div>
             <div>2016-2021</div>
-          </div>
+          </div> 
           <div className="grid grid-cols-2 gap-1 p-5 border border-grey-100 rounded-lg drop-shadow-md">
             <div className="font-bold text-darkBlue">Tilottama College</div>
             <div>+2 Science</div>
