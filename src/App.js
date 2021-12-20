@@ -1,19 +1,24 @@
 import "./App.css";
 import Header from "./components/Header";
-import Introduction from "./components/Introduction";
 import Footer from "./components/Footer";
-import About from "./components/About";
-import Education from "./components/Education";
 import Projects from "./components/Projects";
+import Error from "./components/Error";
+import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
+
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div className="m-auto max-w-6xl">
       <Header />
-      <Introduction />
-      <About />
-      <Education />
-      <Projects />
+      <Routes>
+        <Route path="/" exact element={<HomePage />} />
+        <Route path="/about" exact element={<AboutPage />} />
+        <Route path="/projects" exact element={<Projects />} />
+        <Route element={<Error />} />
+      </Routes>
+
       <Footer />
     </div>
   );
