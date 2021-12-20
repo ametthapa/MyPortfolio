@@ -1,13 +1,13 @@
 const About = () => {
   return (
-    <div className="flex items-center justify-center border border-grey-100 rounded-lg drop-shadow-md mb-10 p-16">
-      <div className="flex justify-between">
+    <div className="flexitems-center justify-center border border-grey-100 rounded-lg drop-shadow-md mb-10 p-16">
+      <div className="flex justify-between  flex-col md:flex-row ">
         <img
           src="../image/Second.jpg"
           alt="Profile"
-          className="h-60 rounded-lg"
+          className="md:h-60 w-56 h-56 rounded-lg "
         />
-        <div className="flex flex-col ml-10 justify-center">
+        <div className="flex flex-col ml-10 justify-center mt-10 md:mt-0">
           <div className="border-l-4 border-darkBlue p-1 font-bold text-xl uppercase">
             Bio Data
           </div>

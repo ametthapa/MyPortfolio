@@ -1,7 +1,7 @@
 const Education = () => {
   return (
     <div className="py-10">
-      <div className="flex flex-col ml-10 justify-center">
+      <div className="flex flex-col justify-center">
         <div className="border-l-4 border-darkBlue p-1 font-bold text-xl uppercase">
           Education
         </div>

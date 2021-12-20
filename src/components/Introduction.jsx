@@ -5,6 +5,13 @@ import { CgFacebook } from "react-icons/cg";
 import { Link } from "react-router-dom";
 
 const Introduction = () => {
+  // const ToggleDarkTheme = () =>{
+
+  // }
+  // const ToggleLightTheme = () =>{
+
+  // }
+
   useEffect(() => {
     const typedTextSpan = document.querySelector(".typed-text");
     const cursorSpan = document.querySelector(".cursor");
@@ -50,8 +57,8 @@ const Introduction = () => {
   });
 
   return (
-    <div className="flex justify-between pt-12 pb-28">
-      <div>
+    <div className="md:flex justify-between grid grid-cols-1 ietms-center md:pt-12 md:pb-28">
+      <div className="row-span-2 p-10 md:p-0">
         <div className="text-xl py-5">Hi there!</div>
         <div className="text-darkBlack text-4xl font-bold pb-5">
           Amrit Thapa.
@@ -127,12 +134,19 @@ const Introduction = () => {
           </Link>
         </div>
       </div>
-      <div>
+      <div className="row-span-1">
         <img
           src="../image/PP.jpg"
           alt="Profile"
-          className="h-72 rounded-full"
+          className="h-72 rounded-full mb-20 md:mb-0"
         />
+        {/* <div className="flex flex-col justify-between">
+          <div>Wanna Change theme?</div>
+          <div className="flex justif-between">
+            <div className="bg-darkBlack text-white p-2" onClick={ToggleDarkTheme}><button>Dark</button></div>
+            <div className="bg-white border border-gray-200 p-2 text-darkBlack ml-10" onClick={ToggleLightTheme}><button>Light</button></div>
+          </div>
+        </div> */}
       </div>
     </div>
   );
