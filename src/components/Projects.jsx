@@ -5,11 +5,11 @@ const Projects = () => {
         <div className="border-l-4 border-darkBlue p-1 font-bold text-xl uppercase flex">Latest Projects</div>
       </div>
       {/* A Grid */}
-      <div className="grid grid-cols-3 gap-5">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-1 gap-5">
 
         {/* First Grid */}
-        <div className="border border-gray-200 shadow-md">
-          <img src="../image/first.png" alt="Portfolio Management System" className="h-52" />
+        <div className="border border-gray-200 shadow-md group">
+          <img src="../image/first.png" alt="Portfolio Management System" className="h-52 group-hover:scale-105" />
           <div className="p-5">
             <div className="font-bold">Portfolio Management System</div>
             <div>
@@ -46,8 +46,8 @@ const Projects = () => {
         {/* First Grid Ends */}
 
         {/* Second Grid */}
-        <div className="border border-gray-200 shadow-md">
-        <img src="../image/second.png" alt="Publishing Site" className="h-52" />
+        <div className="border border-gray-200 shadow-md group">
+        <img src="../image/second.png" alt="Publishing Site" className="h-52 group-hover:scale-105" />
           <div className="p-5">
             <div className="font-bold">A Demo Publishing Site</div>
             <div>
@@ -76,8 +76,8 @@ const Projects = () => {
 
         
         {/* Third Grid */}
-        <div className="border border-gray-200 shadow-md">
-        <img src="../image/third.png" alt="Expense Tracker" className="h-52" />
+        <div className="border border-gray-200 shadow-md group">
+        <img src="../image/third.png" alt="Expense Tracker" className="h-52 group-hover:scale-105" />
           <div className="p-5">
             <div className="font-bold">Expense Tracker</div>
             <div>
@@ -105,8 +105,8 @@ const Projects = () => {
         {/* Third Grid Ends */}
 
         {/* Fourth Grid */}
-        <div className="border border-gray-200 shadow-md">
-        <img src="../image/fourth.png" alt="Exchange Rate Calculator" className="h-52" />
+        <div className="border border-gray-200 shadow-md group">
+        <img src="../image/fourth.png" alt="Exchange Rate Calculator" className="h-52 group-hover:scale-105" />
           <div className="p-5">
             <div className="font-bold">Exchange Rate Calculator</div>
             <div>
@@ -135,8 +135,8 @@ const Projects = () => {
         {/* Fourth Grid Ends */}
 
         {/* Fifth Grid */}
-        <div className="border border-gray-200 shadow-md">
-        <img src="../image/fifth.png" alt="Portfolio Management System" className="h-52" />
+        <div className="border border-gray-200 shadow-md group">
+        <img src="../image/fifth.png" alt="Portfolio Management System" className="h-52 group-hover:scale-105" />
           <div className="p-5">
             <div className="font-bold">DOM Array Method</div>
             <div>

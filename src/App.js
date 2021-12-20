@@ -10,13 +10,13 @@ import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="m-auto max-w-6xl">
+    <div className="m-auto lg:max-w-6xl md:max-w-3xl sm:max-w-xl">
       <Header />
       <Routes>
         <Route path="/" exact element={<HomePage />} />
         <Route path="/about" exact element={<AboutPage />} />
         <Route path="/projects" exact element={<Projects />} />
-        <Route element={<Error />} />
+        <Route path="/" element={<Error />} />
       </Routes>
 
       <Footer />
