@@ -13,7 +13,7 @@ const MenuItems = [
 
 const Header = () => {
   return (
-    <div className="flex justify-end p-5 max-w-6xl m-auto">
+    <div className="flex justify-end py-5">
       <ul className="flex">
         <li className="px-5 capitalize text-darkBlue font-semibold text-lg hover:underline">
           <Link to="/" className="">

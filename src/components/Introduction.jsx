@@ -50,7 +50,7 @@ const Introduction = () => {
   });
 
   return (
-    <div className="max-w-6xl m-auto flex justify-between py-12">
+    <div className="flex justify-between pt-12 pb-28">
       <div>
         <div className="text-xl py-5">Hi there!</div>
         <div className="text-darkBlack text-4xl font-bold pb-5">
@@ -120,13 +120,19 @@ const Introduction = () => {
               Get Resume
             </button>
           </a>
-          <button className="text-white px-5 py-2 ml-5 font-semibold rounded-md border border-darkBlue text-lightBlack transition ease-in duration-300 hover:-translate-y-2">
-            About Me
-          </button>
+          <Link to="/about">
+            <button className="text-white px-5 py-2 ml-5 font-semibold rounded-md border border-darkBlue text-lightBlack transition ease-in duration-300 hover:-translate-y-2">
+              About Me
+            </button>
+          </Link>
         </div>
       </div>
       <div>
-        <img src="../PP.jpg" alt="Profile" className="h-72 rounded-full" />
+        <img
+          src="../image/PP.jpg"
+          alt="Profile"
+          className="h-72 rounded-full"
+        />
       </div>
     </div>
   );
