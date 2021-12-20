@@ -89,7 +89,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        ): null};
+        ): null}
       </div> 
       </>
   );

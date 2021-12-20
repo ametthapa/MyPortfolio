@@ -57,8 +57,8 @@ const Introduction = () => {
   });
 
   return (
-    <div className="lg:flex justify-between md:grid md:grid-cols-1 pt-12 pb-28">
-      <div className="col-span-2">
+    <div className="md:flex justify-between grid grid-cols-1 ietms-center md:pt-12 md:pb-28">
+      <div className="row-span-2 p-10 md:p-0">
         <div className="text-xl py-5">Hi there!</div>
         <div className="text-darkBlack text-4xl font-bold pb-5">
           Amrit Thapa.
@@ -134,11 +134,11 @@ const Introduction = () => {
           </Link>
         </div>
       </div>
-      <div className="col-span-1">
+      <div className="row-span-1">
         <img
           src="../image/PP.jpg"
           alt="Profile"
-          className="h-72 rounded-full"
+          className="h-72 rounded-full mb-20 md:mb-0"
         />
         {/* <div className="flex flex-col justify-between">
           <div>Wanna Change theme?</div>
