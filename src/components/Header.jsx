@@ -30,9 +30,15 @@ const Header = () => {
           );
         })}
         <li>
-          <button className="bg-darkBlue text-white px-5 py-2 font-semibold hover:underline">
+        <a
+              href="mailto: amet.thapa27@gmail.com"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+          <button className="bg-darkBlue text-white px-5 py-2 font-semibold hover:underline outline-none">
             Hire Me
           </button>
+          </a>
         </li>
       </ul>
     </div>
